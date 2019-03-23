@@ -16,6 +16,13 @@
             "program": "${workspaceFolder}/mwscpm.js",
             "args": ["masquerader"],
             "outputCapture": "std"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MWS API Cache Cleaner",
+            "program": "${workspaceFolder}/cache-cleaner.js",
+            "outputCapture": "std"
         }
     ]
 }
